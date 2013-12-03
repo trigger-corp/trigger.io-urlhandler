@@ -1,0 +1,11 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"scheme": {
+			"description": "E.g. using 'myscheme' would open your app if the user visited 'myscheme://'",
+			"required": true,
+			"type": "string"
+		}
+	}
+}

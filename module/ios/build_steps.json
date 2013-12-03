@@ -1,0 +1,3 @@
+[
+	{ "do": { "ios_add_url_handler": { "scheme": "{{modules.urlhandler.config.scheme}}"}}}
+]
