@@ -1,6 +1,6 @@
 {
-    "description": "Automatically open your app from web pages or other apps by creating a custom URL scheme.",
-    "name": "urlhandler",
-    "platform_version": "v2.0.0", 
+    "description": "Automatically open your app from web pages or other apps by creating a custom URL scheme.", 
+    "name": "urlhandler", 
+    "platform_version": "v2.1.0", 
     "version": "2.0"
 }
