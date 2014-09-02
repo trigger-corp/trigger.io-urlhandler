@@ -1,10 +1,9 @@
 {
 	"modules": {
-		"urlhandler": {
-			"version": "2.0",
-			"config": {
-				"scheme": "forgetest"
-			}
-		}
+	},
+	"this_module": {
+		"config": {
+			"scheme": "forgetest"
+        }
 	}
 }
