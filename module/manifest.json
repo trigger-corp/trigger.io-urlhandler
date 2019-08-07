@@ -1,8 +1,8 @@
 {
-    "changes": "* Support arm64 devices running iOS 8", 
-    "description": "Automatically open your app from web pages or other apps by creating a custom URL scheme.", 
-    "min_platform_version": "v2.1.0", 
-    "namespace": "urlhandler", 
-    "platform_version": "v2.2.0", 
-    "version": "2.1"
+    "changes": "* Update to Forge v2.8.x",
+    "description": "Automatically open your app from web pages or other apps by creating a custom URL scheme.",
+    "min_platform_version": "v2.8.0",
+    "namespace": "urlhandler",
+    "platform_version": "v2.8.0",
+    "version": "2.2"
 }
