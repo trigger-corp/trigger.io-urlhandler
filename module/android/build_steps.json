@@ -1,32 +1,11 @@
 [
-	{
-		"do": {
-			"android_add_to_activity_manifest": {
-				"element": {
-					"tag": "intent-filter",
-					"children": [{
-						"tag": "action",
-						"attributes": {
-							"android:name": "android.intent.action.VIEW"
-						}
-					}, {
-						"tag": "category",
-						"attributes": {
-							"android:name": "android.intent.category.DEFAULT"
-						}
-					}, {
-						"tag": "category",
-						"attributes": {
-							"android:name": "android.intent.category.BROWSABLE"
-						}
-					}, {
-						"tag": "data",
-						"attributes": {
-							"android:scheme": "{{ modules.urlhandler.config.scheme }}"
-						}
-					}]
-				}
-			}
-		}
-	}
+    { "do": { "android_add_to_activity_manifest": { "element": {
+        "tag": "intent-filter",
+        "children": [
+            { "tag": "action", "attributes": { "android:name": "android.intent.action.VIEW" } },
+            { "tag": "category", "attributes": { "android:name": "android.intent.category.DEFAULT" } },
+            { "tag": "category", "attributes": { "android:name": "android.intent.category.BROWSABLE" } },
+            { "tag": "data", "attributes": { "android:scheme": "{{ modules.urlhandler.config.scheme }}" } }
+        ]
+    } } } }
 ]
